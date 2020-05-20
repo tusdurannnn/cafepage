@@ -1,0 +1,576 @@
+@charset "utf-8";
+
+/*===== ALL =====*/
+
+h1,li,h2 {
+   font-family: Imprint MT Shadow, serif; 
+}
+p,a {
+    font-family: fot-tsukuardgothic-std, sans-serif;
+}
+
+a {
+    color: #fff;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/*===== header =====*/
+
+.maindish {
+    width: 100%;
+}
+
+.header {
+    background-color: #fff;
+    width: 250px;
+}
+
+ul {
+    text-align: right;
+}
+
+button.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 2rem;
+    color: #fff;
+}
+nav.navbar-light .navbar-toggler-icon {
+    background-image:none;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.ul {
+    padding-left: 20px;
+}
+
+a.nav-link {
+    font-size: 22px;
+}
+
+li {
+    letter-spacing: 0.15em;
+    font-family: bookmania, serif;
+}
+
+.sub1 {
+    position: absolute;
+    top: 28%;
+    right: 5%;
+}
+.sub2 {
+    position: absolute;
+    top: 45%;
+    right: 11%;
+}
+
+.sub11 {
+    position: absolute;
+    top: 21%;
+    right: 27%;
+}
+.sub22 {
+    position: absolute;
+    top: 27%;
+    right: 25%;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    width: 24%;
+}
+
+/*=====※メディアクエリ※　header =====*/
+@media screen and (max-width: 576px){
+    .sub11 {
+    position: absolute;
+    top: 14%;
+    right: 26%;
+    width: 50%;
+}
+    .sub22 {
+    position: absolute;
+    top: 18%;
+    right: 25%;
+    width: 53%;
+}
+
+}
+@media screen and (min-width:576px) and (max-width:768px){
+    .logo {
+    position: absolute;
+    top: 3px;
+    left: 5px;
+    width: 120px;
+}
+    
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .logo {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 200px;
+}
+    
+.sub1 {
+    position: absolute;
+    top: 17%;
+    right: 2%;
+    width: 5%;
+}
+    .sub2 {
+    position: absolute;
+    top: 27%;
+    right: 8%;
+    width: 5%;
+}
+    .headernav {
+    position: absolute;
+    top: 23%;
+    left: -19px;
+}
+    .li {
+    letter-spacing: 0.1em;
+    list-style: none;
+    margin: 25px 0;
+    font-size: 22px;
+    opacity: 0.9;
+    font-family: bookmania, serif;
+}
+}
+
+@media screen and  (min-width:991px) {
+    .logo {
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    width: 235px;
+}
+}
+
+/*===== concept =====*/
+.concept{
+    background-color: #f6f4f3;
+    text-align: center;
+    margin-top: -30px;
+    height: 810px;
+}
+
+.concepth1,.menuh2 {
+    padding-top: 150px;
+    font-size: 42px;
+    letter-spacing: 0.1em;
+}
+
+.concepta {
+    left: 55%;
+    font-size: 15px;
+    color: #454343;
+    border-bottom: 0.7px solid #454343;
+    padding: 10px;
+    letter-spacing: 0.2em;
+    position: absolute;
+}
+
+.concepta::after{
+    content: "〉";
+    padding: 0 5px 0 20px;
+}
+
+.conceptsub {
+    letter-spacing: 0.1em;
+    line-height: 180%;
+    font-size: 24px;
+}
+
+.moji {
+    padding: 30px 0 20px 0;  
+    letter-spacing: 0.1em;
+    line-height: 180%;
+    font-size: 15px;
+}
+
+.moji1 {
+    letter-spacing: 0.1em;
+    line-height: 180%;
+    font-size: 15px;
+}
+
+span {
+    letter-spacing: 0em;
+}
+
+
+/*=====※メディアクエリ※　header =====*/
+@media screen and (max-width: 576px){
+    .conceptsub {
+    letter-spacing: 0.15em;
+    line-height: 180%;
+    font-size: 17px;
+}
+    .moji {
+    padding: 10px 0 10px 0;
+    letter-spacing:0.15em;
+    line-height: 140%;
+    font-size: 12px;
+}
+    .moji1 {
+    letter-spacing: 0.1em;
+    line-height: 146%;
+    font-size: 12px;
+}
+    .concept {
+    background-color: #f6f4f3;
+    text-align: left;
+    padding: 0 40px;
+    height: 570px;
+}
+    .concepth1 {
+    padding-top: 95px;
+    font-size: 35px;
+    letter-spacing:0.15em;
+}
+   .dishlogo {
+    width: 33%;
+
+}
+    
+    .concepta {
+    left: 7%;
+    font-size: 10px;
+    color: #454343;
+    border-bottom: 0.7px solid #454343;
+    padding: 10px;
+    letter-spacing: 0.1em;
+    position: absolute;
+}
+}
+
+/*===== relaxing space =====*/
+
+.relaxingp {
+    font-size: 90px;
+    color: #d4d4d4;
+    text-align: right;
+    letter-spacing: 0.2em;
+    margin-top: 150px;
+    font-family: Imprint MT Shadow, serif; 
+}
+
+.picturer {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+}
+
+.pisturer1 {
+    
+}
+
+.pisturer2 {
+    
+}
+.pisturer3 {
+    
+}
+
+.relaxingmoji {
+    background-color: #f6f4f3;
+    padding: 10px 50px;
+    display: inline-block;
+    letter-spacing: 0.5em;
+    font-size: 20px;
+}
+
+p.relaxingmoji1 {
+    background-color: #f6f4f3;
+    padding: 10px 50px;
+    display: inline-block;
+    letter-spacing: 0.5em;
+    font-size: 20px;
+    float: right;
+}
+.yajirushi {
+    margin-bottom: 200px;
+    margin-top: 50px;
+    float: right;
+}
+.concepta1 {
+    left: 55%;
+    font-size: 15px;
+    color: #454343;
+    border-bottom: 0.7px solid #454343;
+    padding: 10px;
+    letter-spacing: 0.2em;
+    margin-right: 150px;
+}
+
+.concepta1::after{
+    content: "〉";
+    padding: 0 5px 0 20px;
+}
+/*===== ※メディアクエリ※　relaxing space =====*/
+@media screen and (max-width:576px) {
+   
+}
+
+@media screen and (min-width:576px) and (max-width:768px){
+    
+   
+    }
+@media screen and (min-width:768px) and (max-width:991px){
+   
+}
+/*===== Menu =====*/
+.menu {
+    background-color: #efe9e7;
+    text-align: center;
+    height: 930px;
+}
+
+.menuh2 {
+    padding-top: 95px;
+    font-size: 45px;
+    letter-spacing:0.15em;
+}
+    
+
+.menuh2::before {
+    content: url(cafeimages/fork.png);
+    padding-right: 20px;
+}
+
+.menuh2::after {
+    content: url(cafeimages/nife.png);
+    padding-left: 20px;
+}
+
+.dish1 {
+    margin-top: 50px;
+}
+
+.concepta2 {
+    font-size: 15px;
+    color: #454343;
+    border-bottom: 0.7px solid #454343;
+    padding: 10px;
+    letter-spacing: 0.1em;
+}
+
+.concepta2::after{
+    content: "〉";
+    padding: 0 5px 0 20px;
+}
+
+.yajirushi1 {
+    margin-bottom: 200px;
+    margin-top: 50px;
+    position: absolute;
+    right: 20%;
+}
+/*=====※メディアクエリ※　Menu =====*/
+@media screen and (max-width:576px) {
+    
+}
+
+@media screen and (min-width:576px) and (max-width:991px) {
+    
+}
+
+/*===== Online store =====*/
+.online {
+    margin-bottom: 250px;
+}
+
+.onlineh2 {
+    font-size: 90px;
+    color: #d4d4d4;
+    text-align: left;
+    letter-spacing: 0.2em;
+    margin-top: 150px;
+    font-family: Imprint MT Shadow, serif; 
+}
+
+.onlinebunnsyo {
+    margin-top: 120px;
+    line-height: 200%;
+    letter-spacing: 0.1em;
+    padding-left: 100px;
+}
+
+.onlinep {
+    margin: 50px 0;
+    line-height: 200%;
+    letter-spacing: 0.2em;
+}
+
+.p {
+    padding-bottom: 50px;
+}
+
+.onlineb {
+    color: #fff;
+    background-color: #ab8e85;
+    letter-spacing: 0.1em;
+    padding: 10px 50px 10px 10px;
+    background-image: url(cafeimages/cart.png);
+    background-repeat: no-repeat;
+    background-position: 92% 35%;
+    display: inline-block;
+}
+.ppp {
+    background-color: #f6f4f3;
+    padding: 10px 23px;
+    font-size: 18px;
+    margin-bottom: -5px;
+    /* z-index: 10; */
+    top: -15px;
+    position: absolute;
+    margin-left: 10px;
+} 
+.onlinepicture {
+    width: 50%;
+}
+.onlinemoji {
+    letter-spacing: 0.5em;
+}
+
+.onlinep1 {
+    width: 65%; 
+}
+
+.onlinep2 {
+    width: 49%;
+    margin-left: 200px;
+    margin-top: -50px;
+}
+
+.onlinep3 {
+    width: 50%;
+    margin-left: 20px;
+    margin-top: -25px;
+}
+
+/*===== ※メディアクエリ※　Online store =====*/
+
+@media screen and (max-width:576px) {
+    .onlineh2 {
+    font-size: 40px;
+    color: #d4d4d4;
+    text-align: left;
+    letter-spacing: 0.1em;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+}
+
+@media screen and (min-width:576px) and (max-width:991px) {
+    
+}
+
+/*===== Access =====*/
+.accessb {
+    background-image: url(cafeimages/accessbox.jpg);
+    padding: 100px;
+}
+
+.access {
+    margin: 0 auto;
+}
+
+.accessh2 {
+    text-align: left;
+    font-size: 38px;
+    letter-spacing: 0.1em;
+    padding: 15px 0 35px;
+}
+
+.addessbox1 {
+    background-color: #fff;
+    padding: 15px 0;
+}
+
+.addessbox22 {
+    border: 3px solid #d0bdb8;
+    padding: 10px 30px 40px;
+}
+
+.addessmoji1 {
+    line-height: 160%;
+    letter-spacing: 0.1em;
+    font-size: 14px;
+     padding-right: 70px;
+}
+
+.addessmoji2 {
+    line-height: 160%;
+    letter-spacing: 0.1em;
+    font-size: 14px;
+}
+
+.addessbox2 {
+    margin: 0 auto;
+}
+
+iframe {
+    margin-top: 10px;
+}
+/*=====※メディアクエリ※ Access =====*/
+ @media screen and (max-width:576px){
+ 
+}
+@media screen and (min-width:576px) and (max-width:991px){
+.addessbox2 {
+    margin: 0;
+}
+}
+
+/*===== footer =====*/
+
+footer {
+    background-color: #c5b8b4;
+    padding: 50px 100px 30px 150px;
+}
+
+.li11 {
+    list-style: none;
+
+}
+.footernav {
+    margin-left: 50px;
+}
+
+.icon {
+    text-align: center;
+}
+
+.icon::before {
+    content: "—";
+    color: #fff;
+    position: relative;
+    top: -12px;
+}
+.icon::after {
+    content: "—";
+    color: #fff;
+    position: relative;
+    top: -12px;
+}
+.fab {
+     padding: 20px;
+     color: #666666;
+}
+
+a.nav-link.nav1 {
+    font-size: 15px;
+}
+
+
+
+

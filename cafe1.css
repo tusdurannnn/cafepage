@@ -28,7 +28,7 @@ a {
     width: 250px;
 }
 
-ul {
+ul.navbar-nav {
     text-align: right;
 }
 
@@ -85,7 +85,7 @@ li {
     width: 24%;
 }
 
-/*=====※メディアクエリ※　header =====*/
+/*=====※メディアクエリ※header =====*/
 @media screen and (max-width: 576px){
     .sub11 {
     position: absolute;
@@ -213,7 +213,7 @@ span {
 }
 
 
-/*=====※メディアクエリ※　header =====*/
+/*=====※メディアクエリ※header =====*/
 @media screen and (max-width: 576px){
     .conceptsub {
     letter-spacing: 0.45em;
@@ -257,6 +257,47 @@ span {
     position: absolute;
 }
 }
+@media screen and (min-width:576px) and (max-width:768px){
+    .concept {
+    background-color: #f6f4f3;
+    text-align: center;
+    height: 800px;
+}
+   .concepth1, .menuh2 {
+    padding-top: 180px;
+    font-size: 55px;
+    letter-spacing: 0.2em;
+}
+    .conceptsub {
+    letter-spacing: 0.5em;
+    line-height: 160%;
+    font-size: 20px;
+}
+    .moji {
+    padding: 10px 0;
+    letter-spacing: 0.1em;
+    line-height: 180%;
+    font-size: 13px;
+}
+    .moji1 {
+    letter-spacing: 0.15em;
+    line-height: 180%;
+    font-size: 13px;
+}
+    .concepta {
+    left: 60%;
+    font-size: 12px;
+    color: #454343;
+    border-bottom: 0.7px solid #454343;
+    padding: 10px;
+    letter-spacing: 0.2em;
+    position: absolute;
+}
+    }
+@media screen and (min-width:768px) and (max-width:991px){
+  
+}
+
 
 /*===== relaxing space =====*/
 
@@ -342,8 +383,16 @@ p.relaxingmoji1 {
     content: "〉";
     padding: 0 5px 0 20px;
 }
-/*===== ※メディアクエリ※　relaxing space =====*/
+/*===== ※メディアクエリ※relaxing space =====*/
 @media screen and (max-width:576px) {
+    .relaxing {
+    height: 700px;
+}
+    .yajirushi1 {
+        margin-top: 0px;
+    margin-top: 60px;
+    float: right;
+}
    .relaxingp {
     font-size: 60px;
     color: #d4d4d4;
@@ -382,13 +431,13 @@ p.relaxingmoji1 {
     background-color: #f6f4f3;
     padding: 10px 50px;
     display: inline-block;
-    letter-spacing: 0.7em;
+    letter-spacing: 0.5em;
     font-size: 12px;
     padding: 7px 10px;
     float: right;
-    /* position: absolute; */
 }
     .concepta1 {
+    left: 0%;
     position: relative;
     top: 100px;
     font-size: 12px;
@@ -396,18 +445,120 @@ p.relaxingmoji1 {
     border-bottom: 0.7px solid #454343;
     padding: 10px;
     letter-spacing: 0.2em;
-    /* margin-right: 15px; */
+    margin-right: 15px;
 }
+    
 }
 
 @media screen and (min-width:576px) and (max-width:768px){
-    
-   
-    }
+    .relaxingp {
+    font-size: 80px;
+    color: #d4d4d4;
+    text-align: right;
+    letter-spacing: 0.3em;
+    margin-top: 130px;
+        margin-right: 0px;
+}
+    .relaxingmoji {
+    background-color: #f6f4f3;
+    padding: 10px 30px;
+    display: inline-block;
+    letter-spacing: 0.5em;
+    font-size: 14px;
+    position: absolute;
+    z-index: 10;
+}
+    p.relaxingmoji1 {
+    z-index: 10;
+    position: relative;
+    top: 80px;
+    background-color: #f6f4f3;
+    padding: 10px 30px;
+    display: inline-block;
+    letter-spacing: 0.5em;
+    font-size: 14px;
+    float: right;
+}
+    .pisturer1 {
+    position: absolute;
+    top: -10%;
+    left: 10%;
+    width: 48%;
+}
+    .pisturer3 {
+    width: 35%;
+    position: relative;
+    top: 24px;
+    left: 23%;
+}
+    .concepta1 {
+    /* left: 55%; */
+    font-size: 12px;
+    color: #454343;
+    border-bottom: 0.7px solid #454343;
+    padding: 10px;
+    letter-spacing: 0.2em;
+    margin-right: 32px;
+}
+}
 @media screen and (min-width:768px) and (max-width:991px){
-   
+   .relaxingp {
+    font-size: 95px;
+    line-height: 110%;
+    color: #d4d4d4;
+    text-align: right;
+    letter-spacing: 0.3em;
+    margin-top: 150px;
+    font-family: Imprint MT Shadow, serif;
+    margin-right: 50px;
+}
+    .concepta1 {
+    left: 55%;
+    font-size: 13px;
+    color: #454343;
+    border-bottom: 0.7px solid #454343;
+    padding: 10px;
+    letter-spacing: 0.2em;
+    margin-right: 60px;
+}
+    .relaxingmoji {
+    background-color: #f6f4f3;
+    padding: 10px 40px;
+    display: inline-block;
+    letter-spacing: 0.6em;
+    font-size: 16px;
+    position: absolute;
+    z-index: 10;
+}
+    p.relaxingmoji1 {
+    z-index: 10;
+    position: relative;
+    top: 55px;
+    background-color: #f6f4f3;
+    padding: 10px 40px;
+    display: inline-block;
+    letter-spacing: 0.6em;
+    font-size: 16px;
+    float: right;
+}
 }
 /*===== Menu =====*/
+ .concepta2 {
+    font-size: 15px;
+    color: #454343;
+    border-bottom: 0.7px solid #454343;
+    padding: 10px;
+    letter-spacing: 0.1em;
+    margin-left: auto;
+    float: right;
+    margin-right: 250px;
+}
+
+    .concepta2::after{
+    content: "〉";
+    padding: 0 5px 0 20px;
+}
+
 .menu {
     background-color: #efe9e7;
     text-align: center;
@@ -432,18 +583,6 @@ p.relaxingmoji1 {
     padding-left: 20px;
 }
 
-
-.concepta2 {
-    font-size: 15px;
-    color: #454343;
-    border-bottom: 0.7px solid #454343;
-    padding: 10px;
-    letter-spacing: 0.1em;
-    margin-left: auto;
-    float: right;
-    margin-right: 250px;
-}
-
 .concepta2::after{
     content: "〉";
     padding: 0 5px 0 20px;
@@ -461,7 +600,7 @@ p.relaxingmoji1 {
 .spmenu {
     margin: 0 10px;
 }
-/*=====※メディアクエリ※　Menu =====*/
+/*=====※メディアクエリ※Menu =====*/
 @media screen and (max-width:576px) {
     .menuh2 {
     font-size: 45px;
@@ -473,6 +612,19 @@ p.relaxingmoji1 {
     .manupicture {
         width: 42%;
     }
+    
+    .menu {
+    background-color: #efe9e7;
+    text-align: center;
+    height: 800px;
+}
+    .addessbox1 {
+    background-color: #fff;
+    padding: 10px 0;
+}
+.menuh2::after {
+    content: url(cafeimages/nife.png);
+}
     .concepta2 {
     font-size: 12px;
     color: #454343;
@@ -483,22 +635,20 @@ p.relaxingmoji1 {
     float: right;
     margin-right: 40px;
 }
-    .menu {
-    background-color: #efe9e7;
-    text-align: center;
-    height: 800px;
-}
 }
 
-.menuh2::after {
-    content: url(cafeimages/nife.png);
+@media screen and (min-width:576px) and (max-width:991px){
+    .concepta2 {
+    font-size: 12px;
+    color: #454343;
+    border-bottom: 0.7px solid #454343;
+    padding: 10px;
+    letter-spacing: 0.1em;
+    margin-left: auto;
+    float: right;
+    margin-right: 0px;
 }
 }
-
-@media screen and (min-width:576px) and (max-width:991px) {
-    
-}
-
 /*===== Online store =====*/
 .online {
     margin-bottom: 250px;
@@ -545,7 +695,6 @@ p.relaxingmoji1 {
     padding: 10px 23px;
     font-size: 18px;
     margin-bottom: -5px;
-    /* z-index: 10; */
     top: -15px;
     position: absolute;
     margin-left: 10px;
@@ -573,8 +722,7 @@ p.relaxingmoji1 {
     margin-top: -25px;
 }
 
-/*===== ※メディアクエリ※　Online store =====*/
-
+/*===== ※メディアクエリ※Online store =====*/
 @media screen and (max-width:576px) {
     .onlineh2 {
     font-size: 50px;
@@ -622,8 +770,92 @@ p.relaxingmoji1 {
 }
 }
 
-@media screen and (min-width:576px) and (max-width:991px) {
-    
+@media screen and (min-width:576px) and (max-width:768px) {
+    .onlineh2 {
+    line-height: 110%;
+    font-size: 84px;
+    color: #d4d4d4;
+    text-align: left;
+    letter-spacing: 0.3em;
+    margin-top: 150px;
+    font-family: Imprint MT Shadow, serif;
+}
+    .ppp {
+    background-color: #f6f4f3;
+    padding: 10px 15px;
+    font-size: 14px;
+    top: -15px;
+    left: 50&;
+    position: absolute;
+    margin-left: 60px;
+}
+    .onlinep2 {
+    width: 49%;
+    margin-left: 260px;
+    margin-top: -50px;
+}
+    .onlinebunnsyo {
+    margin-top: 0px;
+}
+    .onlinep {
+    font-size: 13px;
+    margin: 20px 0;
+    line-height: 200%;
+    letter-spacing: 0.2em;
+} 
+    .onlineb {
+    color: #fff;
+    background-color: #ab8e85;
+    letter-spacing: 0.1em;
+    padding: 7px 10px;
+    background-image: url(cafeimages/cart.png);
+    background-repeat: no-repeat;
+    background-position: 92% 35%;
+    display: inline-block;
+    font-size: 14px;
+    width: 31%;
+}
+    .online {
+    margin-bottom: 150px;
+}
+}
+@media screen and (min-width:768px) and (max-width:991px){ 
+   .ppp {
+    background-color: #f6f4f3;
+    padding: 10px 23px;
+    font-size: 15px;
+    top: -15px;
+    right: -8%;
+    position: absolute;
+    width: 127%;
+}
+    .onlinep {
+    margin: 30px 0;
+    line-height: 200%;
+    letter-spacing: 0.2em;
+    font-size: 13px;
+}
+    .onlinep1 {
+    width: 82%;
+}
+    .onlinep2 {
+    width: 58%;
+    margin-left: 188px;
+    margin-top: -50px;
+}
+    .onlinep3 {
+    width: 70%;
+    margin-left: 20px;
+    margin-top: -25px;
+}
+    p.onlineh2 {
+    font-size: 76px;
+    color: #d4d4d4;
+    text-align: left;
+    letter-spacing: 0.3em;
+    margin-top: 150px;
+    font-family: Imprint MT Shadow, serif;
+}
 }
 
 /*===== Access =====*/
@@ -675,12 +907,50 @@ iframe {
 }
 /*=====※メディアクエリ※ Access =====*/
  @media screen and (max-width:576px){
- 
+ .accessb {
+    padding: 50px;
 }
-@media screen and (min-width:576px) and (max-width:991px){
-.addessbox2 {
+     .accessh2 {
+    text-align: left;
+    font-size: 32px;
+    letter-spacing: 0.1em;
+     padding: 0 0 15px 0;
+}
+     .addessmoji2 {
+    line-height: 140%;
+    letter-spacing: 0.1em;
+    font-size: 10px;
+}
+     .addessmoji1 {
+    line-height: 140%;
+    letter-spacing: 0.1em;
+    font-size: 10px;
+}
+     .addessbox22 {
+    padding: 10px 20px;
+}
+     iframe {
+         width: 100%;
+     }
+}
+
+@media screen and (min-width:576px) and (max-width:991px) {
+   .addessbox22 {
+    border: 3px solid #d0bdb8;
+    padding: 10px 30px;
+}
+    .accessh2 {
+    text-align: left;
+    font-size: 38px;
+    letter-spacing: 0.1em;
+    padding: 15px 0 15px;
+}
+    .addessbox2 {
     margin: 0;
 }
+    iframe {
+         width: 100%;
+     }
 }
 
 /*===== footer =====*/
@@ -695,11 +965,8 @@ footer {
 
 .li11 {
     list-style: none;
+}
 
-}
-.footernav {
-    margin-left: 50px;
-}
 
 .icon {
     text-align: center;
@@ -727,6 +994,72 @@ a.nav-link.nav1 {
     font-size: 15px;
 }
 
+ifream {
+    max-width: 100%;
+}
 
+
+@media screen and (max-width:576px){
+    footer {
+          padding:0px;  
+    }
+    .icon {
+    text-align: center;
+}
+    .fab {
+    padding: 0px 17px;
+    color: #666666;
+}
+    .footerlogo {
+    padding:20px;
+}
+    .icon {
+    text-align: center;
+    margin-top: 20px;
+}
+    .footernav {
+    margin-left: 0px;
+}
+    a.nav-link.nav1 {
+    font-size: 12px;
+}
+}
+@media screen and (min-width:576px) and (max-width:768px) {
+    footer {
+        padding: 0px;
+    }
+    .icon {
+    text-align: center;
+        margin-top: 0px;
+}
+    .footerlogo {
+    padding-top: 30px;
+}
+    ul {
+    padding-left: 03px;
+}
+    .footernav {
+    margin-left: 70px;
+    margin-top: 10px;
+}
+    .fab {
+    padding: 0 15px;
+    color: #666666;
+}
+    .icon {
+    margin-top: 35px;
+}
+}
+@media screen and (min-width:678px) and (max-width:991px) {
+    footer {
+        padding: 0px;
+    }
+    ul {
+        padding-left: 0px;
+    }
+    div.icon {
+    padding: 0px;
+}
+}
 
 

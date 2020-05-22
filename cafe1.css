@@ -218,7 +218,7 @@ span {
     .conceptsub {
     letter-spacing: 0.45em;
     line-height: 180%;
-    font-size: 16px;
+    font-size: 15px;
 }
     .moji {
     padding: 10px 0 0 0;
@@ -240,8 +240,9 @@ span {
 }
     .concepth1 {
     padding-top: 95px;
-    font-size: 38px;
-    letter-spacing:0.15em;
+    font-size: 37px;
+    letter-spacing: 0.15em;
+    margin-bottom: 0px;
 }
    .dishlogo {
     width: 33%;
@@ -394,6 +395,7 @@ p.relaxingmoji1 {
     float: right;
 }
    .relaxingp {
+    line-height: 110%;
     font-size: 60px;
     color: #d4d4d4;
     text-align: right;
@@ -404,9 +406,9 @@ p.relaxingmoji1 {
 }
     .relaxingmoji {
     background-color: #f6f4f3;
-    padding: 7px 20px;
+    padding: 7px 10px;
     display: inline-block;
-    letter-spacing: 0.5em;
+    letter-spacing: 0.4em;
     font-size: 12px;
     position: absolute;
     z-index: 10;
@@ -424,16 +426,16 @@ p.relaxingmoji1 {
     position: relative;
     top: 135px;
 }
-    p.relaxingmoji1 {
+   p.relaxingmoji1 {
     z-index: 10;
     position: relative;
     top: 130px;
     background-color: #f6f4f3;
     padding: 10px 50px;
     display: inline-block;
-    letter-spacing: 0.5em;
+    letter-spacing: 0.4em;
     font-size: 12px;
-    padding: 7px 10px;
+    padding: 7px;
     float: right;
 }
     .concepta1 {
@@ -910,17 +912,24 @@ iframe {
  .accessb {
     padding: 50px;
 }
-     .accessh2 {
+    .accessh2 {
     text-align: left;
-    font-size: 32px;
+    font-size: 30px;
     letter-spacing: 0.1em;
-     padding: 0 0 15px 0;
+    padding: 0 0 15px 0;
+    padding-bottom: 0px;
 }
      .addessmoji2 {
     line-height: 140%;
     letter-spacing: 0.1em;
     font-size: 10px;
 }
+     div.col-4.addessmoji1{
+         padding-right: 0px;
+     }
+     div.col-8.addessmoji2{
+         padding: 0px;
+     }
      .addessmoji1 {
     line-height: 140%;
     letter-spacing: 0.1em;
@@ -1011,7 +1020,8 @@ ifream {
     color: #666666;
 }
     .footerlogo {
-    padding:20px;
+    padding: 20px 20px 20px 40px;
+    width: 100%;
 }
     .icon {
     text-align: center;

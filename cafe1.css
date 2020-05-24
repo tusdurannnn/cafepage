@@ -2,9 +2,7 @@
 
 .headerColor-default {
    background-color: white;
-    opacity: 0.8;
-     /*background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");*/
-  /* （画像よりも下までスクロールした時に変えたい文字色） */
+    opacity: 0.7;
 }
 
 /*===== ALL =====*/
@@ -258,14 +256,11 @@ span {
     margin-bottom: 0px;
 }
    img.dishlogo {
-    width: 14%;
+    width: 34%;
 }
-    
     .concepta {
     left: 10%;
     font-size: 10px;
-    color: #454343;
-    border-bottom: 0.7px solid #454343;
     padding: 10px;
     letter-spacing: 0.1em;
     position: absolute;
@@ -301,17 +296,11 @@ span {
     .concepta {
     left: 60%;
     font-size: 12px;
-    color: #454343;
-    border-bottom: 0.7px solid #454343;
     padding: 10px;
     letter-spacing: 0.2em;
     position: absolute;
 }
     }
-@media screen and (min-width:768px) and (max-width:991px){
-  
-}
-
 
 /*===== relaxing space =====*/
 
@@ -408,10 +397,10 @@ p.relaxingmoji1 {
 /*===== ※メディアクエリ※relaxing space =====*/
 @media screen and (max-width:576px) {
     .relaxing {
-    height: 700px;
+    height: 630px;
 }
     .yajirushi1 {
-        margin-top: 0px;
+    margin-top: 0px;
     margin-top: 60px;
     float: right;
 }
@@ -462,12 +451,8 @@ p.relaxingmoji1 {
     .concepta1 {
     left: 0%;
     position: relative;
-    top: 100px;
-    font-size: 12px;
-    color: #454343;
-    border-bottom: 0.7px solid #454343;
-    padding: 10px;
-    letter-spacing: 0.2em;
+    top: 73px;
+    font-size: 10px;
     margin-right: 15px;
 }
     
@@ -515,12 +500,7 @@ p.relaxingmoji1 {
     left: 23%;
 }
     .concepta1 {
-    /* left: 55%; */
     font-size: 12px;
-    color: #454343;
-    border-bottom: 0.7px solid #454343;
-    padding: 10px;
-    letter-spacing: 0.2em;
     margin-right: 32px;
 }
 }
@@ -538,10 +518,6 @@ p.relaxingmoji1 {
     .concepta1 {
     left: 55%;
     font-size: 13px;
-    color: #454343;
-    border-bottom: 0.7px solid #454343;
-    padding: 10px;
-    letter-spacing: 0.2em;
     margin-right: 60px;
 }
     .relaxingmoji {
@@ -579,7 +555,6 @@ p.relaxingmoji1 {
     letter-spacing:0.15em;
     padding-bottom: 50px;
 }
-    
 
 .menuh2::before {
     content: url(cafeimages/fork.png);
@@ -599,7 +574,7 @@ p.relaxingmoji1 {
     letter-spacing: 0.1em;
     margin-left: auto;
     float: right;
-    margin-right: 250px;
+    margin-top: 50px;
 }
 
 .concepta2::after{
@@ -619,50 +594,132 @@ p.relaxingmoji1 {
     float: right;
 }
 
-.dish3 {
-    margin-bottom: 50px;
+div.dish{
+    margin: 0 auto;
+    text-align: center;
+    width: 800px;
 }
-.spmenu {
-    margin: 0 10px;
+
+/* Menu hover */
+.picture1 {
+	width:	245px;
+	overflow: hidden;
+	margin: 8px;
+	position: relative;
+    float: left;
+}
+.picture1 .picture1-2 {
+	font-size:	130%;
+	text-align: center;
+	color: #fff;
+}
+.picture1 .menumoji1 {
+	width: 100%;
+	height:	100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;	
+	background-color:	rgba(0,0,0,0.4);
+	-webkit-transition:	all 0.6s ease;
+	transition:		all 0.6s ease;
+}
+.picture1:hover .menumoji1{
+	opacity: 1;	
+	padding-top: 60px;	
+}
+.menumoji1 {
+    font-family: fot-tsukuardgothic-std, sans-serif;
 }
 /*=====※メディアクエリ※Menu =====*/
 @media screen and (max-width:576px) {
-    .menuh2 {
-    font-size: 45px;
-    letter-spacing: 0.15em;
+    div.spmenu {
+    display: block;
+    width: 262px;
+    margin: 0 auto;
 }
-    .menuh2::before {
-    content: url(cafeimages/fork.png);
+   .menuh2 {
+    padding-top: 70px;
+    font-size: 46px;
+    padding-bottom: 15px;
 }
-    .manupicture {
-        width: 42%;
+    .spmenuback {
+    background-color: #efe9e7;
     }
     
-    .menu {
+    .dish1,.dish2,.dish3 {
+        width: 100%;
+    }
+  
+    .spmenu {
     background-color: #efe9e7;
     text-align: center;
-    height: 800px;
-}
-    .addessbox1 {
-    background-color: #fff;
-    padding: 10px 0;
-}
-.menuh2::after {
-    content: url(cafeimages/nife.png);
+    height: 1400px;
 }
     .concepta2 {
-    font-size: 12px;
-    color: #454343;
-    border-bottom: 0.7px solid #454343;
-    padding: 10px;
-    letter-spacing: 0.1em;
-    margin-left: auto;
-    float: right;
-    margin-right: 40px;
+    font-size: 10px;
+    margin-top: 15px;
+}
+    div.dish{
+    margin: 0 auto;
+    text-align: center;
+    width: 800px;
+}
+
+/* Menu hover */
+.picture1 {
+	width:	245px;
+	overflow: hidden;
+	margin: 8px;
+	position: relative;
+    float: left;
+}
+.picture1 .picture1-2 {
+	font-size:	130%;
+	text-align: center;
+	color: #fff;
+}
+.picture1 .menumoji1 {
+	width: 100%;
+	height:	100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;	
+	background-color:	rgba(0,0,0,0.4);
+	-webkit-transition:	all 0.6s ease;
+	transition:		all 0.6s ease;
+}
+.picture1:hover .menumoji1{
+	opacity: 1;	
+	padding-top: 60px;	
 }
 }
 
-@media screen and (min-width:576px) and (max-width:991px){
+@media screen and (min-width:576px) and (max-width:768px){
+div.spmenu{
+    margin: 0 auto;
+    text-align: center;
+    width: 530px;
+}
+    .spmenuback {
+    background-color: #efe9e7;
+        height: 920px;
+    }
+.picture1 {
+	width:	245px;
+	overflow: hidden;
+	margin: 8px;
+	position: relative;
+    float: left;
+}
+    .concepta2 {
+        margin-right: 0px;
+    }
+    
+}
+
+@media screen and (min-width:768px) and (max-width:991px){
     .concepta2 {
     font-size: 12px;
     color: #454343;
@@ -674,6 +731,7 @@ p.relaxingmoji1 {
     margin-right: 0px;
 }
 }
+
 /*===== Online store =====*/
 .online {
     margin-bottom: 250px;
@@ -1031,6 +1089,7 @@ a.nav-link1.nav1 {
     color: #fff;
     display: block;
     padding: .5rem 1rem;
+    text-decoration: none;
 }
 
 li {
@@ -1050,13 +1109,16 @@ ifream {
     .icon {
     text-align: center;
 }
+    ul {
+        padding-left: 0px;
+    }
     .fab {
     padding: 0px 17px;
     color: #666666;
 }
     .footerlogo {
-    padding: 20px 20px 20px 40px;
-    width: 100%;
+   padding: 15px;
+    width: 90%;
 }
     .icon {
     text-align: center;

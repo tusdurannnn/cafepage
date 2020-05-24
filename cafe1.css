@@ -546,7 +546,7 @@ p.relaxingmoji1 {
 .menu {
     background-color: #efe9e7;
     text-align: center;
-    height: 930px;
+    height: 970px;
 }
 
 .menuh2 {
@@ -609,7 +609,6 @@ div.dish{
     float: left;
 }
 .picture1 .picture1-2 {
-	font-size:	130%;
 	text-align: center;
 	color: #fff;
 }
@@ -675,7 +674,6 @@ div.dish{
     float: left;
 }
 .picture1 .picture1-2 {
-	font-size:	130%;
 	text-align: center;
 	color: #fff;
 }
@@ -693,6 +691,7 @@ div.dish{
 .picture1:hover .menumoji1{
 	opacity: 1;	
 	padding-top: 60px;	
+    
 }
 }
 

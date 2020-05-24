@@ -1,5 +1,12 @@
 @charset "utf-8";
 
+.headerColor-default {
+   background-color: white;
+    opacity: 0.8;
+     /*background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");*/
+  /* （画像よりも下までスクロールした時に変えたい文字色） */
+}
+
 /*===== ALL =====*/
 
 h1,li,h2 {
@@ -24,7 +31,6 @@ a {
 }
 
 .header {
-    background-color: #fff;
     width: 250px;
 }
 
@@ -34,13 +40,13 @@ ul.navbar-nav {
 
 button.navbar-toggler {
     padding: .25rem .75rem;
-    font-size: 2rem;
+    font-size: 2.2rem;
     color: #fff;
 }
 
 nav.navbar-light .navbar-toggler-icon {
     background-image:none;
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .ul {
@@ -49,6 +55,7 @@ nav.navbar-light .navbar-toggler-icon {
 
 a.nav-link {
     font-size: 22px;
+    color: #FFF;
 }
 
 li {
@@ -58,12 +65,12 @@ li {
 
 .sub1 {
     position: absolute;
-    top: 28%;
+    top: 30%;
     right: 5%;
 }
 .sub2 {
     position: absolute;
-    top: 45%;
+    top: 47%;
     right: 11%;
 }
 
@@ -176,10 +183,10 @@ li {
 
 .concepta {
     left: 55%;
-    font-size: 15px;
-    color: #454343;
-    border-bottom: 0.7px solid #454343;
-    padding: 10px;
+    font-size: 14px;
+    color: #636262;
+    border: 0.7px solid #636262;
+   padding: 10px 0px 10px 20px;
     letter-spacing: 0.2em;
     position: absolute;
 }
@@ -187,6 +194,12 @@ li {
 .concepta::after{
     content: "〉";
     padding: 0 5px 0 20px;
+}
+.concepta:hover {
+    background-color: #ab8e85;
+    color: #fff;
+    transition: 0.3s;
+    border: none;
 }
 
 .conceptsub {
@@ -197,13 +210,13 @@ li {
 
 .moji {
     padding: 30px 0 20px 0;  
-    letter-spacing: 0.1em;
+    letter-spacing: 0.2em;
     line-height: 180%;
     font-size: 15px;
 }
 
 .moji1 {
-    letter-spacing: 0.1em;
+    letter-spacing: 0.2em;
     line-height: 180%;
     font-size: 15px;
 }
@@ -244,8 +257,8 @@ span {
     letter-spacing: 0.15em;
     margin-bottom: 0px;
 }
-   .dishlogo {
-    width: 33%;
+   img.dishlogo {
+    width: 14%;
 }
     
     .concepta {
@@ -365,6 +378,7 @@ p.relaxingmoji1 {
     font-size: 18px;
     float: right;
 }
+
 .yajirushi {
     margin-bottom: 200px;
     margin-top: 20px;
@@ -372,10 +386,10 @@ p.relaxingmoji1 {
 }
 .concepta1 {
     left: 55%;
-    font-size: 15px;
+    font-size: 14px;
     color: #454343;
-    border-bottom: 0.7px solid #454343;
-    padding: 10px;
+    border: 0.7px solid #454343;
+    padding: 10px 0px 10px 20px;
     letter-spacing: 0.2em;
     margin-right: 150px;
 }
@@ -384,6 +398,13 @@ p.relaxingmoji1 {
     content: "〉";
     padding: 0 5px 0 20px;
 }
+.concepta1:hover {
+    border: none;
+    background-color: #595858;
+    color: #fff;
+    transition: 0.5s;
+}
+
 /*===== ※メディアクエリ※relaxing space =====*/
 @media screen and (max-width:576px) {
     .relaxing {
@@ -545,21 +566,6 @@ p.relaxingmoji1 {
 }
 }
 /*===== Menu =====*/
- .concepta2 {
-    font-size: 15px;
-    color: #454343;
-    border-bottom: 0.7px solid #454343;
-    padding: 10px;
-    letter-spacing: 0.1em;
-    margin-left: auto;
-    float: right;
-    margin-right: 250px;
-}
-
-    .concepta2::after{
-    content: "〉";
-    padding: 0 5px 0 20px;
-}
 
 .menu {
     background-color: #efe9e7;
@@ -585,9 +591,26 @@ p.relaxingmoji1 {
     padding-left: 20px;
 }
 
+.concepta2 {
+    font-size: 14px;
+    color: #454343;
+    border: 0.7px solid #454343;
+    padding: 10px 0px 10px 20px;
+    letter-spacing: 0.1em;
+    margin-left: auto;
+    float: right;
+    margin-right: 250px;
+}
+
 .concepta2::after{
     content: "〉";
     padding: 0 5px 0 20px;
+}
+.concepta2:hover {
+     background-color: #ab8e85;
+    color: #fff;
+    transition: 0.3s;
+    border: none;
 }
 
 .yajirushi1 {
@@ -691,6 +714,10 @@ p.relaxingmoji1 {
     background-repeat: no-repeat;
     background-position: 92% 35%;
     display: inline-block;
+}
+.onlineb:hover {
+    color: #fff;
+    background-color: #c9ada4;
 }
 .ppp {
     background-color: #f6f4f3;
@@ -999,8 +1026,16 @@ footer {
      color: #666666;
 }
 
-a.nav-link.nav1 {
+a.nav-link1.nav1 {
     font-size: 15px;
+    color: #fff;
+    display: block;
+    padding: .5rem 1rem;
+}
+
+li {
+    letter-spacing: 0.15em;
+    font-family: Imprint MT Shadow, serif;
 }
 
 ifream {
@@ -1030,8 +1065,11 @@ ifream {
     .footernav {
     margin-left: 0px;
 }
-    a.nav-link.nav1 {
+    a.nav-link1.nav1 {
     font-size: 12px;
+    color: #fff;
+    display: block;
+    padding: .5rem 1rem;
 }
 }
 @media screen and (min-width:576px) and (max-width:768px) {
@@ -1049,6 +1087,7 @@ ifream {
     padding-left: 03px;
 }
     .footernav {
+    margin-left: 70px;
     margin-top: 10px;
 }
     .fab {
@@ -1059,7 +1098,7 @@ ifream {
     margin-top: 35px;
 }
 }
-@media screen and (min-width:768px) and (max-width:991px) {
+@media screen and (min-width:678px) and (max-width:991px) {
     footer {
         padding: 0px;
     }

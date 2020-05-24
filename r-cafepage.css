@@ -1,10 +1,53 @@
 @charset "utf-8";
 
+
+/*=====　jqueryのためのCSS =====*/
+
+/* ALL */
+.fadein {
+  opacity: 0;
+  transform : translate(0, 50px);
+  transition : all 2000ms;
+}
+
+.fadein.scrollin{
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
 .headerColor-default {
    background-color: #fff;
     opacity: 0.7;
 }
 
+/*===== animation =====*/
+img.maindish{
+    -webkit-animation: fadeIn 3s ease 0s 1 normal;
+    animation: fadeIn 3s ease 0s 1 normal;
+  }{
+    -webkit-animation: fadeIn 3s ease 0s 1 normal;
+    animation: fadeIn 3s ease 0s 1 normal;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0.1
+    }
+div
+    100% {
+      opacity: 1
+    }
+  }
+
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity: 0.1
+    }
+
+    100% {
+      opacity: 1
+    }
+  }
 
 /*===== ALL =====*/
 
@@ -95,13 +138,13 @@ li {
 @media screen and (max-width: 576px){
     .sub11 {
     position: absolute;
-    top: 15%;
+    top: 20%;
     right: 25%;
     width: 55%;
 }
     .sub22 {
     position: absolute;
-    top: 19%;
+    top: 16%;
     right: 24%;
     width: 56%;
 }
@@ -118,6 +161,9 @@ li {
     top: 4px;
     left: 10px;
     width: 130px;
+}
+    a.nav-link {
+    font-size: 14px;
 }
 }
 @media screen and (min-width:576px) and (max-width:768px){
@@ -232,7 +278,7 @@ span {
 }
 
 
-/*=====※メディアクエリ※header =====*/
+/*=====※メディアクエリ※Concept =====*/
 @media screen and (max-width: 576px){
     .conceptsub {
     letter-spacing: 0.45em;
@@ -259,7 +305,7 @@ span {
 }
     .concepth1 {
     padding-top: 73px;
-    font-size: 37px;
+    font-size: 34px;
     letter-spacing: 0.15em;
     margin-bottom: 0px;
 }
@@ -659,7 +705,7 @@ div.dish{
 }
    .menuh2 {
     padding-top: 70px;
-    font-size: 46px;
+    font-size: 40px;
     padding-bottom: 15px;
 }
     .spmenuback {
@@ -687,6 +733,20 @@ div.dish{
     .p-none {
         display: none;
     }
+    .menuh2::after {
+    content: url(cafeimages/nife.png);
+    padding-left: 20px;
+    position: relative;
+    top: 20px;
+    left: -6%;
+}
+    .menuh2::before {
+    content: url(cafeimages/fork.png);
+    padding-right: 20px;
+    position: relative;
+    top: 15px;
+    left: 6%;
+}
     
 /* Menu hover */
 .picture1 {
@@ -801,13 +861,16 @@ div.spmenu{
 }
 .ppp {
     background-color: #f6f4f3;
-    padding: 10px 23px;
+    padding: 10px;
     font-size: 18px;
     margin-bottom: -5px;
-    top: -15px;
-    position: absolute;
+    top: 10px;
+    z-index: 10;
+    /* position: absolute; */
+    position: relative;
     margin-left: 10px;
-} 
+}
+}
 .onlinepicture {
     width: 50%;
 }

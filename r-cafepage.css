@@ -109,7 +109,9 @@ li {
     padding: 0px;
     color: #fff;
 }
-
+    .js-header {
+        height: auto;
+    }
 }
 @media screen and (min-width:576px) and (max-width:768px){
     .logo {
@@ -118,7 +120,6 @@ li {
     left: 15px;
     width: 150px;
 }
-    
 }
 
 @media screen and (min-width:768px) and (max-width:991px) {
@@ -265,6 +266,12 @@ span {
     letter-spacing: 0.1em;
     position: absolute;
 }
+    .concepta:hover {
+    background-color: #ab8e85;
+    color: #fff;
+    transition: 0.3s;
+    border: none;
+}
 }
 @media screen and (min-width:576px) and (max-width:768px){
     .concept {
@@ -299,6 +306,12 @@ span {
     padding: 10px;
     letter-spacing: 0.2em;
     position: absolute;
+}
+    .concepta:hover {
+    background-color: #ab8e85;
+    color: #fff;
+    transition: 0.3s;
+    border: none;
 }
     }
 

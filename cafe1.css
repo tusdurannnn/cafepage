@@ -1049,7 +1049,6 @@ ifream {
     padding-left: 03px;
 }
     .footernav {
-    margin-left: 70px;
     margin-top: 10px;
 }
     .fab {
@@ -1060,7 +1059,7 @@ ifream {
     margin-top: 35px;
 }
 }
-@media screen and (min-width:678px) and (max-width:991px) {
+@media screen and (min-width:768px) and (max-width:991px) {
     footer {
         padding: 0px;
     }

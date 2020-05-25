@@ -5,7 +5,7 @@
 
 /* ALL */
 .fadein {
-  opacity: 0.3;
+  opacity: 0.1;
   transform : translate(0, 50px);
   transition : all 2000ms;
 }

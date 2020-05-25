@@ -140,13 +140,13 @@ li {
 @media screen and (max-width: 576px){
     .sub11 {
     position: absolute;
-    top: 20%;
+    top: 22%;
     right: 25%;
     width: 55%;
 }
     .sub22 {
     position: absolute;
-    top: 16%;
+    top: 18%;
     right: 24%;
     width: 56%;
 }
@@ -1266,3 +1266,5 @@ ifream {
     padding: 0px;
 }
 }
+
+

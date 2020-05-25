@@ -17,7 +17,7 @@
 
 .headerColor-default {
    background-color: #fff;
-    opacity: 0.7;
+    opacity: 0.9;
 }
 
 /*===== animation =====*/
@@ -97,8 +97,9 @@ nav.navbar-light .navbar-toggler-icon {
 }
 
 a.nav-link {
-    font-size: 22px;
+    font-size: 18px;
     color: #FFF;
+    margin: 0 30px;
 }
 
 li {
@@ -774,17 +775,7 @@ div.picture1,.picture1-2 {
 	text-align:di center;
 	color: #fff;
 }
-div.picture1,p.menumoji1 {
-	width: 100%;
-	height:	100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	opacity: 0;	
-	background-color:	rgba(0,0,0,0.4);
-	-webkit-transition:	all 0.6s ease;
-	transition:		all 0.6s ease;
-}
+
 div.picture1:hover p.menumoji1{
 	opacity: 1;	
 	padding-top: 60px;	

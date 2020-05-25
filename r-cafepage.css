@@ -166,6 +166,7 @@ li {
 }
     a.nav-link {
     font-size: 14px;
+    margin-right: 0px;
 }
     .maindish {
         display: none;
@@ -1265,5 +1266,3 @@ ifream {
     padding: 0px;
 }
 }
-
-

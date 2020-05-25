@@ -21,7 +21,7 @@
 }
 
 /*===== animation =====*/
-img.maindish,.maindish1,.sub11,.sub22{
+.sub11,.sub22{
     -webkit-animation: fadeIn 3s ease 0s 1 normal;
     animation: fadeIn 3s ease 0s 1 normal;
   }{
